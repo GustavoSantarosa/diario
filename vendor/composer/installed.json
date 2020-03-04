@@ -1,0 +1,251 @@
+[
+    {
+        "name": "coffeecode/router",
+        "version": "1.0.7",
+        "version_normalized": "1.0.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/robsonvleite/router.git",
+            "reference": "e3b94f72bc389e8b97d82a0fd0e5bff743e51667"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/robsonvleite/router/zipball/e3b94f72bc389e8b97d82a0fd0e5bff743e51667",
+            "reference": "e3b94f72bc389e8b97d82a0fd0e5bff743e51667",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2"
+        },
+        "time": "2019-09-30T16:29:47+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CoffeeCode\\Router\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Robson V. Leite",
+                "email": "cursos@upinside.com.br",
+                "role": "Developer"
+            }
+        ],
+        "description": "A classic CoffeeCode Router is easy, fast and extremely uncomplicated. Create and manage your routes in minutes!",
+        "homepage": "http://www.upinside.com.br",
+        "keywords": [
+            "Coffeecode",
+            "route",
+            "router",
+            "routes",
+            "upinside"
+        ]
+    },
+    {
+        "name": "gustavosantarosa/converter",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/GustavoSantarosa/converter.git",
+            "reference": "6fad164dd30a4de41f9608827f04c25c9240d620"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/GustavoSantarosa/converter/zipball/6fad164dd30a4de41f9608827f04c25c9240d620",
+            "reference": "6fad164dd30a4de41f9608827f04c25c9240d620",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2"
+        },
+        "time": "2020-02-27T03:01:58+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "GustavoSantarosa\\Converter\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Luis Gustavo Santarosa Pinto",
+                "email": "gustavo-computacao@hotmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Conversores para automatizar as views",
+        "homepage": "http://www.gustavosantarosa.esy.es/",
+        "keywords": [
+            "Bolota",
+            "GustavoSantarosa",
+            "conversor",
+            "converter"
+        ]
+    },
+    {
+        "name": "gustavosantarosa/filter",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/GustavoSantarosa/filter.git",
+            "reference": "0596ef80a15dc38eb66e26045c18adfbc0db57a2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/GustavoSantarosa/filter/zipball/0596ef80a15dc38eb66e26045c18adfbc0db57a2",
+            "reference": "0596ef80a15dc38eb66e26045c18adfbc0db57a2",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2"
+        },
+        "time": "2020-02-27T02:57:45+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "GustavoSantarosa\\Filter\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Luis Gustavo Santarosa Pinto",
+                "email": "gustavo-computacao@hotmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "filtros para utilizar nos controller",
+        "homepage": "http://www.gustavosantarosa.esy.es/",
+        "keywords": [
+            "Bolota",
+            "GustavoSantarosa",
+            "filter",
+            "filtro"
+        ]
+    },
+    {
+        "name": "gustavosantarosa/session",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/GustavoSantarosa/session.git",
+            "reference": "72c1b5ddcb8847cfc69945c18bae41bb1e9813e8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/GustavoSantarosa/session/zipball/72c1b5ddcb8847cfc69945c18bae41bb1e9813e8",
+            "reference": "72c1b5ddcb8847cfc69945c18bae41bb1e9813e8",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2"
+        },
+        "time": "2020-02-26T03:00:30+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "GustavoSantarosa\\Session\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Luis Gustavo Santarosa Pinto",
+                "email": "gustavo-computacao@hotmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "gerenciar sessões",
+        "homepage": "http://www.gustavosantarosa.esy.es/",
+        "keywords": [
+            "Bolota",
+            "GustavoSantarosa",
+            "dataSession"
+        ]
+    },
+    {
+        "name": "gustavosantarosa/validator",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/GustavoSantarosa/validator.git",
+            "reference": "7a4b653701cd88844ca5c889a2531b6697d6aaf4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/GustavoSantarosa/validator/zipball/7a4b653701cd88844ca5c889a2531b6697d6aaf4",
+            "reference": "7a4b653701cd88844ca5c889a2531b6697d6aaf4",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2"
+        },
+        "time": "2020-02-27T02:58:12+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "GustavoSantarosa\\Validator\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Luis Gustavo Santarosa Pinto",
+                "email": "gustavo-computacao@hotmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "validações para automatizar controllers",
+        "homepage": "http://www.gustavosantarosa.esy.es/",
+        "keywords": [
+            "Bolota",
+            "GustavoSantarosa",
+            "validator"
+        ]
+    }
+]

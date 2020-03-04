@@ -1,0 +1,9 @@
+{
+    "require": {
+        "gustavosantarosa/session": "dev-master",
+        "gustavosantarosa/filter": "dev-master",
+        "gustavosantarosa/converter": "dev-master",
+        "gustavosantarosa/validator": "dev-master",
+        "coffeecode/router": "^1.0"
+    }
+}
