@@ -1,3 +1,3 @@
 <?php
 
-define("URL_BASE", "localhost");
+define("URL_BASE", "http://diario.snapsolutions.com.br");
