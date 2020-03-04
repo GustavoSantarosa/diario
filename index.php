@@ -20,6 +20,16 @@ $router->group(null);
 $router->get("/", "Web:home");
 
 /*
+*Teste
+*home
+*/
+$router->group("teste");
+$router->get("/", "Test:home");
+$router->get("/{filter}", "Test:home");
+$router->get("/teste", "Test:test");
+
+
+/*
 *ERRORS
 */
 $router->group("ooops");
