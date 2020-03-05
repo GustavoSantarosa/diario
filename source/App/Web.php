@@ -9,22 +9,20 @@ class Web{
     private $view;
 
     public function __construct(){
-        $this->view = engine::create(__DIR__."../../theme","php");
+        //$this->view = engine::create(__DIR__."../../theme","php");
     }
 
     public function home($data): void{
-        $users = (new User())->find()->fetch(true);
-        echo $this->view->render("home",[
-            "title" => "Home | ".SITE,
-            "users" => $users
-        ]);
+
+        echo "<h1> home</h1>";
+        var_dump($data);
     }
 
     public function contact($data): void{
         echo "<h1> Contato</h1>";
         var_dump($data);
 
-        $url = URL_BASE;
+        
         require __DIR__."/../../views/teste.phtml";
     }
 
