@@ -6,7 +6,19 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitec5cd7f21ec64547ce91ad7a8e8f3a41
 {
+    public static $files = array (
+        '1a63bee7c7aff664170be2a07de4337e' => __DIR__ . '/../..' . '/source/Config.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
+        's' => 
+        array (
+            'source\\' => 7,
+        ),
+        'L' => 
+        array (
+            'League\\Plates\\' => 14,
+        ),
         'G' => 
         array (
             'GustavoSantarosa\\Validator\\' => 27,
@@ -17,10 +29,19 @@ class ComposerStaticInitec5cd7f21ec64547ce91ad7a8e8f3a41
         'C' => 
         array (
             'CoffeeCode\\Router\\' => 18,
+            'CoffeeCode\\DataLayer\\' => 21,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'source\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/source',
+        ),
+        'League\\Plates\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/plates/src',
+        ),
         'GustavoSantarosa\\Validator\\' => 
         array (
             0 => __DIR__ . '/..' . '/gustavosantarosa/validator/src',
@@ -40,6 +61,10 @@ class ComposerStaticInitec5cd7f21ec64547ce91ad7a8e8f3a41
         'CoffeeCode\\Router\\' => 
         array (
             0 => __DIR__ . '/..' . '/coffeecode/router/src',
+        ),
+        'CoffeeCode\\DataLayer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/coffeecode/datalayer/src',
         ),
     );
 

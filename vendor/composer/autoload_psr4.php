@@ -6,9 +6,12 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'source\\' => array($baseDir . '/source'),
+    'League\\Plates\\' => array($vendorDir . '/league/plates/src'),
     'GustavoSantarosa\\Validator\\' => array($vendorDir . '/gustavosantarosa/validator/src'),
     'GustavoSantarosa\\Session\\' => array($vendorDir . '/gustavosantarosa/session/src'),
     'GustavoSantarosa\\Filter\\' => array($vendorDir . '/gustavosantarosa/filter/src'),
     'GustavoSantarosa\\Converter\\' => array($vendorDir . '/gustavosantarosa/converter/src'),
     'CoffeeCode\\Router\\' => array($vendorDir . '/coffeecode/router/src'),
+    'CoffeeCode\\DataLayer\\' => array($vendorDir . '/coffeecode/datalayer/src'),
 );

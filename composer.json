@@ -1,9 +1,29 @@
 {
+    "name": "gustavosantarosa/diario",
+    "description": "Diario",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luis Gustavo Santarosa Pinto",
+            "email": "gustavo-computacao@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
     "require": {
         "gustavosantarosa/session": "dev-master",
         "gustavosantarosa/filter": "dev-master",
         "gustavosantarosa/converter": "dev-master",
         "gustavosantarosa/validator": "dev-master",
-        "coffeecode/router": "^1.0"
+        "coffeecode/router": "^1.0",
+        "coffeecode/datalayer": "^1.1",
+        "league/plates": "^3.3"
     }
 }
