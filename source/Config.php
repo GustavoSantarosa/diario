@@ -1,6 +1,6 @@
 <?php
 
-define("ROOT", "localhost/");
+define("ROOT", "http://diario.snapsolutions.com.br");
 
 define("SITE", "#diario");
 
